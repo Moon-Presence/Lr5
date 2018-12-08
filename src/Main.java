@@ -3,6 +3,12 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Лабораторная работа №5\n"+
+                "Выполнил: ст. гр. ПЭ-171\n"+
+                "Осокин Р.М.\n"+
+                "Задание: создание приложения для сортировки списков,\n"+
+                "работы с объектами класса map\n"+
+                "и сортировки элементов собственного класса");
         Random c = new Random();
         ArrayList<Integer> a = new ArrayList<Integer>();
         for(int i =0;i<10;i++)
@@ -31,11 +37,6 @@ public class Main {
         {
             System.out.println((i+1)+" - "+b.get(i));
         }
-
-        //Student UE_171[]=new Student[10];
-        //for(int i =0;i<10;i++)
-        //{int u=c.nextInt(10);
-          //  UE_171[i].set(u);}
 
         ArrayList<Student> students = new ArrayList<Student>();
         for(int i =0;i<10;i++) {
